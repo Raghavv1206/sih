@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #087259;font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    position: relative;
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    height: 30%;
+    width: 70%;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* background: url('img1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain; */
+    filter: drop-shadow(0 0 1.75rem gray);
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.myh1{
+    position: absolute;
+    top: 70%;
+    color: beige;
+    font-size: 70px;
+    padding: 20px;
+    
+}
+.myh2{
+    position: absolute;
+    top: 65%;
+    color: beige;
+    font-size: 70px;
+    padding: 20px;
+    
+}
+.myh3{
+    position: absolute;
+    top: 70%;
+    color: beige;
+    font-size: 70px;
+    padding: 20px;
+    
+}
+
+
+.mainh1{
+    font-size: 100px;
+    color: beige;
+}
+
+.hoverh1:hover {
+    color: crimson;
+}
